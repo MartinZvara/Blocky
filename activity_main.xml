@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlockyActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="#010101">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="\nTake a photo\n"
+        android:id="@+id/photoButton"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#cacaca" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:text="\nSpracuj\n"
+        android:id="@+id/spracuj"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_centerHorizontal="true"
+        android:background="#cacaca" />
+
+    <ImageView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/photoPreview"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher"/>
+
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#cacaca"
+        android:src="@drawable/arrowright"
+    />
+
+    <ImageButton
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:id="@+id/left"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#cacaca"
+        android:src="@drawable/arrowleft"
+    />
+
+    <ImageView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:id="@+id/bigPreview"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
