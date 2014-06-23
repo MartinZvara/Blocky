@@ -23,8 +23,8 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="64dp"
-        android:text="\nSpracuj\n"
-        android:id="@+id/spracuj"
+        android:text="\nProcess image\n"
+        android:id="@+id/process"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="80dp"
         android:layout_marginRight="80dp"
